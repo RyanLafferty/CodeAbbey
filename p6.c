@@ -46,6 +46,8 @@ int main()
 	
 	sum = ((double)a) / ((double)b);
 	rem = (double)(sum - ((int)(sum)));
+	//printf("Sum = %lf\n", sum);
+	//printf("Rem = %lf\n", rem);
 	
 	if(rem >= 0.5)
 	{
@@ -73,6 +75,8 @@ int main()
 		
 		sum = ((double)a) / ((double)b);
 		rem = (double)(sum - ((int)(sum)));
+		//printf("Sum = %lf\n", sum);
+		//printf("Rem = %lf\n", rem);
 		
 		if(rem >= 0.5)
 		{
